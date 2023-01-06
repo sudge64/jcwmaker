@@ -1,13 +1,13 @@
 baseURL = "http://example.com"
-title = "My Happy Little Shop"
-author = "John Doe"
+title = "JCW Maker"
+author = "C.J. Wade"
 theme = "simple-snipcart-shop"
 contentDir = "products"
 [params]
-  instagram = "example_handle"
-  header = "Welcome to My Happy Little Shop!"
-  description = "We make stuff and things"
-  products_title = "Our stuff"
+  instagram = "jcw_maker"
+  header = "Welcome to My Portfolio!"
+  description = "Custom Leatherwork"
+  products_title = "My Products"
   reviews_title = "Our reviews"
   not_found = "Sorry, but we do not have any products in this category yet."
   categories = [
@@ -16,17 +16,18 @@ contentDir = "products"
     "For the friends"
   ]
   collage = [
-    "/images/collage-1.jpg",
-    "/images/collage-2.jpg",
-    "/images/collage-3.jpg",
-    "/images/collage-8.jpg",
-    "/images/collage-7.jpg",
-    "/images/collage-4.jpg",
-    "/images/collage-5.jpg",
-    "/images/collage-6.jpg"
+    "/images/leather-01.jpg",
+    "/images/leather-02.jpg",
+    "/images/leather-03.jpg",
+    "/images/leather-04.jpg",
+    "/images/leather-05.jpg",
+    "/images/leather-06.jpg",
+    "/images/leather-07.jpg",
+    "/images/leather-08.jpg"
   ]
   # snipcart features will not work without an api key
   # see https://docs.snipcart.com/v3/dashboard/account-configuration#3-api-keys
-  snipcart_key = ""
+  # snipcart_key = ""
   favicon= "/images/favicon.png"
+  logo= "/images/logo.svg"
 
