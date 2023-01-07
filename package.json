@@ -8,9 +8,7 @@
     "hugo-theme-demo-builder": "^1.0.7",
     "postcss-cli": "^7.1.2"
   },
-  "scripts": {
-    "start": "hugo server --bind 0.0.0.0"
-  },
+
   "author": "tylerjlawson",
   "license": "MIT",
   "browserslist": [
