@@ -8,7 +8,7 @@ contentDir = "products"
   header = "Welcome to My Portfolio!"
   description = "Custom Leatherwork"
   products_title = "My Products"
-  reviews_title = "Our reviews"
+  #reviews_title = "Our reviews"
   not_found = "Sorry, but we do not have any products in this category yet."
   categories = [
     "Wallets",
