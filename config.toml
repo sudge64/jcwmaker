@@ -16,14 +16,14 @@ contentDir = "products"
     "For the friends"
   ]
   collage = [
-    "/images/leather-01.jpg",
-    "/images/leather-02.jpg",
-    "/images/leather-03.jpg",
-    "/images/leather-04.jpg",
-    "/images/leather-05.jpg",
-    "/images/leather-06.jpg",
-    "/images/leather-07.jpg",
-    "/images/leather-08.jpg"
+    "/images/belt-slide-brown-cross-hatch-basket-01.jpg",
+    "/images/bifold-money-clip-oil-finish-basket-weave-double-border-01.jpg",
+    "/images/dury-wallet-brown-cross-hatch-basket-01.jpg",
+    "/images/dury-wallet-two-tone-basket-weave-01.jpg",
+    "/images/leamon-money-clip-basket-weave-double-border-01.jpg",
+    "/images/leamon-money-clip-tooled-texas-01.jpg",
+    "/images/roper-wallet-two-tone-01.jpg",
+    "/images/belt-slide-two-tone-cross-hatch-01.jpg"
   ]
   # snipcart features will not work without an api key
   # see https://docs.snipcart.com/v3/dashboard/account-configuration#3-api-keys
