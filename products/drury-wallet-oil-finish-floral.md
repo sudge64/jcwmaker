@@ -1,7 +1,7 @@
 +++
-name = "Dury Wallet"
+name = "Drury Wallet"
 price = 120
-image = "/images/dury-wallet-oil-finish-floral-01.jpg"
+image = "/images/drury-wallet-oil-finish-floral-01.jpg"
 description = "Oil Finish Floral"
 categories = ["wallets"]
 +++
