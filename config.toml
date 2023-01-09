@@ -5,6 +5,7 @@ theme = "simple-snipcart-shop"
 contentDir = "products"
 [params]
   instagram = "jcw_maker"
+  facebook = "jcw_maker"
   header = "Welcome to My Portfolio!"
   description = "Custom Leatherwork"
   products_title = "My Products"
@@ -12,7 +13,8 @@ contentDir = "products"
   not_found = "Sorry, but we do not have any products in this category yet."
   categories = [
     "Wallets",
-    "Belt Slides"
+    "Belt Slides",
+    "Money Clips"
   ]
   collage = [
     "/images/belt-slide-brown-cross-hatch-basket-01.jpg",
