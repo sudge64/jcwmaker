@@ -11,9 +11,8 @@ contentDir = "products"
   reviews_title = "Our reviews"
   not_found = "Sorry, but we do not have any products in this category yet."
   categories = [
-    "For you",
-    "For the home",
-    "For the friends"
+    "Wallets",
+    "Belt Slides"
   ]
   collage = [
     "/images/belt-slide-brown-cross-hatch-basket-01.jpg",
@@ -29,5 +28,3 @@ contentDir = "products"
   # see https://docs.snipcart.com/v3/dashboard/account-configuration#3-api-keys
   # snipcart_key = ""
   favicon= "/images/favicon.png"
-  logo= "/images/logo.png"
-
