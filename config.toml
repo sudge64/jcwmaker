@@ -6,6 +6,7 @@ contentDir = "products"
 [params]
   instagram = "jcw_maker"
   facebook = "jcw_maker"
+  etsy = "JCW Maker"
   header = "Welcome to My Portfolio!"
   description = "Custom Leatherwork"
   products_title = "My Products"
