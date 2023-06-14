@@ -14,8 +14,11 @@ contentDir = "products"
   not_found = "Sorry, but we do not have any products in this category yet."
   categories = [
     "Wallets",
-    "Belt Slides",
-    "Money Clips"
+    "Knife Sheathes",
+    "Belts",
+    "Gun Leathers",
+    "Bags",
+    "Misc"
   ]
   collage = [
     "/images/belt-slide-brown-cross-hatch-basket-01.jpg",
