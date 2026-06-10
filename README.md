@@ -1,2 +1,2 @@
-# hopestreams.net
-The website for hopestreams.net. Written in React.
+# jcwmaker.com
+The website for jcwmaker.com. Written in React.
