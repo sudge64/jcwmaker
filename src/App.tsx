@@ -8,7 +8,7 @@ import LetsWadeIn from "./pages/LetsWadeIn";
 import Contact from "./pages/Contact";
 import Partnership from "./pages/Partnership";
 import "./App.css";
-import background from "./assets/living_water.jpg";
+import background from "./assets/governors_bag_edit.JPG";
 
 function App() {
   return (
@@ -18,6 +18,8 @@ function App() {
         backgroundImage: `url(${background})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
+        height: '100vh',
+        width: '100%'
       }}
     >
       <Router>

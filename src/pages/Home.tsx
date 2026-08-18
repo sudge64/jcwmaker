@@ -1,11 +1,10 @@
 import HeroSection from "../components/HeroSection/HeroSection";
-import MainSection from "../components/MainSection/MainSection";
+//import MainSection from "../components/MainSection/MainSection";
 
 const Home = () => {
   return (
     <>
       <HeroSection />
-      <MainSection />
     </>
   );
 };

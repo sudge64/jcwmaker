@@ -41,14 +41,14 @@ form button {
   transition: .5s;
   border: none;
   color: white;
-  background-color: #001F3F;
+  background-color: black;
 }
 
 form button:hover {
   width: 100%;
   background-color: white;
-  color: #001F3F;
-  border: 1px solid #001F3F;
+  color: black;
+  border: 1px solid black;
 }
 
 form .honey {
