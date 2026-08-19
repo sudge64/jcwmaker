@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import "./App.css";
-import background from "./assets/governors_bag_edit.JPG";
+import background from "./assets/governors_bag_edit.jpeg";
 
 function App() {
   return (

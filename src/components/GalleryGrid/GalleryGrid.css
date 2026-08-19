@@ -1,0 +1,71 @@
+/* Container for the entire product grid */
+.product-grid {
+  display: grid;
+  /* Responsive columns: 1 on mobile, 2 on tablet, 3 on desktop */
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1.5rem;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 640px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Individual Product Card */
+.product-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.product-card h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 0;
+  color: #111827;
+}
+
+.product-card p {
+  color: #4b5563;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* Image Gallery within Card */
+.product-images {
+  display: grid;
+  /* 2 columns for multiple images */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.product-images img {
+  width: 100%;
+  height: 8rem; /* Fixed height for uniformity */
+  object-fit: cover; /* Ensures images cover the area without distortion */
+  border-radius: 0.375rem;
+  background-color: #f3f4f6;
+}
+
+/* Hover effect for cards */
+.product-card:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+  transition: all 0.2s ease-in-out;
+}
