@@ -35,11 +35,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link
-            to="https://hope-streams.myshopify.com/"
-            onClick={() => setIsOpen(false)}
-          >
-            Products
+          <Link to="/gallery" onClick={() => setIsOpen(false)}>
+            Gallery
           </Link>
         </li>
         <li>

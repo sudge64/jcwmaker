@@ -1,4 +1,4 @@
-const LetsWadeIn = () => {
+const Gallery = () => {
   return (
     <div className="text-background">
       <div style={{ padding: "20px" }}>
@@ -20,4 +20,4 @@ const LetsWadeIn = () => {
   );
 };
 
-export default LetsWadeIn;
+export default Gallery;
