@@ -30,7 +30,7 @@ const products: Product[] = [
   {
     id: "1",
     name: "Belt",
-    price: 99.99,
+    price: 125,
     images: ["belt_front"].map((name, index) => ({
       id: `${name}-${index}`,
       url: imageMap[name] || '/placeholder.jpg',
@@ -40,7 +40,7 @@ const products: Product[] = [
   {
     id: "2",
     name: "Bible Cover",
-    price: 199.99,
+    price: 450,
     images: ["Bible_cover_front", "Bible_cover_back"].map((name, index) => ({
       id: `${name}-${index}`,
       url: imageMap[name] || '/placeholder.jpg',
@@ -50,7 +50,7 @@ const products: Product[] = [
   {
     id: "3",
     name: "Dop Bag",
-    price: 99.99,
+    price: 100,
     images: ["dop_bag_front"].map((name, index) => ({
       id: `${name}-${index}`,
       url: imageMap[name] || '/placeholder.jpg',
@@ -60,7 +60,7 @@ const products: Product[] = [
   {
     id: "4",
     name: "Tooled Belt",
-    price: 99.99,
+    price: 375,
     images: ["tooled_belt_front"].map((name, index) => ({
       id: `${name}-${index}`,
       url: imageMap[name] || '/placeholder.jpg',
@@ -70,7 +70,7 @@ const products: Product[] = [
   {
     id: "5",
     name: "Custom Tooled Belt",
-    price: 99.99,
+    price: 400,
     images: ["tooled_belt_custom_front"].map((name, index) => ({
       id: `${name}-${index}`,
       url: imageMap[name] || '/placeholder.jpg',
@@ -80,7 +80,7 @@ const products: Product[] = [
   {
     id: "6",
     name: "Custom Graduation Cap",
-    price: 99.99,
+    price: 350,
     images: ["tooled_grad_cap_front"].map((name, index) => ({
       id: `${name}-${index}`,
       url: imageMap[name] || '/placeholder.jpg',
@@ -100,7 +100,7 @@ const ProductImages: React.FC<{ images: Image[] }> = ({ images }) => (
 const ProductCard: React.FC<{ product: Product }> = ({ product }) => (
   <div className="product-card">
     <h3>{product.name}</h3>
-    <p>${product.price}</p>
+    <p>Starting at ${product.price}</p>
     <ProductImages images={product.images} />
   </div>
 );

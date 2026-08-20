@@ -56,3 +56,8 @@ main {
   height: 100%;
 }
 
+.profile img {
+  display: flex;
+  justify-items: center;
+  max-width: 35%;
+}

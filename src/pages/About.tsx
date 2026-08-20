@@ -1,9 +1,14 @@
+import profile from "../assets/profile.jpg"
+
 const About = () => {
   return (
     <div className="text-background">
       <div style={{ padding: "20px" }}>
-        <h1>About</h1>
-        <h3>Meet The Maker</h3>
+        <h1>Meet The Maker</h1>
+        <div className="profile">
+          <img src={profile}/>
+        </div>
+        <br/>
         <p>
            One seemingly ordinary day, I decided to check out my new neighbor’s garage sale, and in a matter of minutes, I found myself in his knife-making shop engrossed in a very interesting conversation. That day lit a spark and I discovered a passion for knife-making, and have been making them now for almost a decade.
         </p>
@@ -41,7 +46,7 @@ const About = () => {
         </p>
         <br/>
         <p>
-          All the best to you and yours.
+          All the best to you and yours!
         </p>
       </div>
     </div>
