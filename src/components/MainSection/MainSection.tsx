@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./MainSection.css";
 import wades from "../../assets/jadon_wade.png";
 
