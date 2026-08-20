@@ -4,7 +4,7 @@ const ContactForm = () => {
 
   return (
     <section className="contact">
-      <form action="https://formsubmit.co/7d5f16a9c69f38441c0a380d78c460b4" method="POST">
+      <form action="https://formsubmit.co/d0efbf0985f7ab5fda2749acf845732b" method="POST">
         <div className="contactForm">
           <div className="input-box">
             <label>Full Name</label>
