@@ -1,0 +1,39 @@
+[
+    {
+        "id": "1",
+        "name": "Tow Belt",
+        "price": 125,
+        "images": ["belt_front"]
+
+    },
+    {
+        "id": "2",
+        "name": "Bible Cover",
+        "price": 450,
+        "images": ["Bible_cover_front", "Bible_cover_back"]
+    },
+    {
+        "id": "3",
+        "name": "Dopp Bag",
+        "price": 100,
+        "images": ["dop_bag_front"]
+    },
+    {
+        "id": "4",
+        "name": "Tooled Belt",
+        "price": 375,
+        "images": ["tooled_belt_front"]
+    },
+    {
+        "id": "5",
+        "name": "Custom Tooled Belt",
+        "price": 400,
+        "images": ["tooled_belt_custom_front"]
+    },
+    {
+        "id": "6",
+        "name": "Custom Graduation Cap",
+        "price": 350,
+        "images": ["tooled_grad_cap_front"]
+    }
+]
