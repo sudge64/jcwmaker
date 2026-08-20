@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-//import logo from "../../assets/hopestreams_blue_logo.png";
 import logo from "../../assets/logo_small_white.png";
 import "./Navbar.css";
 

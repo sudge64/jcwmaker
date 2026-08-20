@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import productData from "./product_list.json"
 import "./GalleryGrid.css"
 
 interface Image {
@@ -24,70 +26,18 @@ const imageMap = Object.fromEntries(
     const filename = path.split('/').pop()?.replace(/\.(jpeg|jpg|png|webp)$/, '') || '';
     return [filename, url]; 
   })
-);
+) as Record<string, string>;
 
-const products: Product[] = [
-  {
-    id: "1",
-    name: "Belt",
-    price: 125,
-    images: ["belt_front"].map((name, index) => ({
-      id: `${name}-${index}`,
-      url: imageMap[name] || '/placeholder.jpg',
-      alt: name
-    }))
-  },
-  {
-    id: "2",
-    name: "Bible Cover",
-    price: 450,
-    images: ["Bible_cover_front", "Bible_cover_back"].map((name, index) => ({
-      id: `${name}-${index}`,
-      url: imageMap[name] || '/placeholder.jpg',
-      alt: name
-    }))
-  },
-  {
-    id: "3",
-    name: "Dop Bag",
-    price: 100,
-    images: ["dop_bag_front"].map((name, index) => ({
-      id: `${name}-${index}`,
-      url: imageMap[name] || '/placeholder.jpg',
-      alt: name
-    }))
-  },
-  {
-    id: "4",
-    name: "Tooled Belt",
-    price: 375,
-    images: ["tooled_belt_front"].map((name, index) => ({
-      id: `${name}-${index}`,
-      url: imageMap[name] || '/placeholder.jpg',
-      alt: name
-    }))
-  },
-  {
-    id: "5",
-    name: "Custom Tooled Belt",
-    price: 400,
-    images: ["tooled_belt_custom_front"].map((name, index) => ({
-      id: `${name}-${index}`,
-      url: imageMap[name] || '/placeholder.jpg',
-      alt: name
-    }))
-  },
-  {
-    id: "6",
-    name: "Custom Graduation Cap",
-    price: 350,
-    images: ["tooled_grad_cap_front"].map((name, index) => ({
-      id: `${name}-${index}`,
-      url: imageMap[name] || '/placeholder.jpg',
-      alt: name
-    }))
-  },
-];
+const products: Product[] = productData.map((item: any) => ({
+  id: item.id,
+  name: item.name,
+  price: item.price,
+  images: item.images.map((name: string, index: number) => ({
+    id: `${item.id}-${name}-${index}`,
+    url: imageMap[name] || '/placeholder.jpg',
+    alt: name
+  })).filter((img: Image) => img.url !== '/placeholder.jpg')
+}));
 
 const ProductImages: React.FC<{ images: Image[] }> = ({ images }) => (
   <div className="product-images">
@@ -99,9 +49,12 @@ const ProductImages: React.FC<{ images: Image[] }> = ({ images }) => (
 
 const ProductCard: React.FC<{ product: Product }> = ({ product }) => (
   <div className="product-card">
+    <ProductImages images={product.images} />
     <h3>{product.name}</h3>
     <p>Starting at ${product.price}</p>
-    <ProductImages images={product.images} />
+    <Link to="/contact" className="contact-button">
+      Contact Me
+    </Link>
   </div>
 );
 
