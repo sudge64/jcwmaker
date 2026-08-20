@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ImageCarousel from "../ImageCarousel/ImageCarousel";
 import productData from "./product_list.json"
 import "./GalleryGrid.css"
 
@@ -39,19 +40,13 @@ const products: Product[] = productData.map((item: any) => ({
   })).filter((img: Image) => img.url !== '/placeholder.jpg')
 }));
 
-const ProductImages: React.FC<{ images: Image[] }> = ({ images }) => (
-  <div className="product-images">
-    {images.map((img) => (
-      <img key={img.id} src={img.url} alt={img.alt} />
-    ))}
-  </div>
-);
-
 const ProductCard: React.FC<{ product: Product }> = ({ product }) => (
   <div className="product-card">
-    <ProductImages images={product.images} />
-    <h3>{product.name}</h3>
-    <p>Starting at ${product.price}</p>
+    <ImageCarousel images={product.images} />
+    <div className="card-details">
+      <h3>{product.name}</h3>
+    </div>
+    {/*<p>Starting at ${product.price}</p>*/}
     <Link to="/contact" className="contact-button">
       Contact Me
     </Link>
