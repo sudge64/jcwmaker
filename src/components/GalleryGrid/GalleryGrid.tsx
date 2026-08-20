@@ -3,7 +3,7 @@ import ImageCarousel from "../ImageCarousel/ImageCarousel";
 import productData from "./product_list.json"
 import "./GalleryGrid.css"
 
-interface Image {
+export interface Image {
   id: string;
   url: string;
   alt: string;
