@@ -33,14 +33,6 @@ const About = () => {
           I primarily take custom orders and I’d love to make one for you. I use the top-quality leather and materials that I can get my hands on. My Gallery shows a portfolio of some products I’ve made.
         </p>
         <br/>
-        <ul>
-          <li>knife sheaths</li>
-          <li>gun leathers</li>
-          <li>belts</li>
-          <li>wallets</li>
-          <li>bags, etc.</li>
-        </ul>
-        <br/>
         <p>
           Thanks for stopping by! You can reach me via my Contact page or social media.
         </p>
