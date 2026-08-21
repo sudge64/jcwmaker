@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import "./App.css";
-import background from "./assets/background.jpeg";
+import background from "./assets/background_bw.jpeg";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
         backgroundImage: `url(${background})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
+        backgroundPosition: "center",
         height: '100vh',
         width: '100%'
       }}
