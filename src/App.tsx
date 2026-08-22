@@ -9,19 +9,28 @@ import "./App.css";
 import background from "./assets/background.jpeg";
 
 function App() {
+  const location = useLocation();
+
+  const isNotHome = location.pathname !== "/";
+
   return (
+    <div style={{ minHeight: "100vh", position: "relative", overflow: "hidden" }}>
     <div
-      className="app-background"
+      className={`app-background ${isNotHome ? "grayscale-background" : ""}`}
       style={{
+        position: "absolute",
+        top: 0,
+        left: 0,
         backgroundImage: `url(${background})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",
-        height: '100vh',
-        width: '100%'
+        height: '100%',
+        width: '100%',
+        zIndex: 0
       }}
-    >
-        <div className="App">
+    />
+        <div className="App" style={{ position: "relative", zIndex: 1 }}>
           <Navbar />
           <main>
             <Routes>
