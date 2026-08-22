@@ -46,10 +46,10 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => (
     <div className="card-details">
       <h3>{product.name}</h3>
     </div>
-    {/*<p>Starting at ${product.price}</p>*/}
-    <Link to="/contact" className="contact-button">
+    <p>Starting at ${product.price}</p>
+    {/*<Link to="/contact" className="contact-button">
       Contact Me
-    </Link>
+    </Link>*/}
   </div>
 );
 
