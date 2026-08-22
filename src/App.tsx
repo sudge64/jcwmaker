@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home";
@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import "./App.css";
-import background from "./assets/background_bw_crop.jpeg";
+import background from "./assets/background.jpeg";
 
 function App() {
   return (
@@ -21,7 +21,6 @@ function App() {
         width: '100%'
       }}
     >
-      <Router>
         <div className="App">
           <Navbar />
           <main>
@@ -34,7 +33,6 @@ function App() {
           </main>
           <Footer />
         </div>
-      </Router>
     </div>
   );
 }
