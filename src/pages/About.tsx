@@ -1,4 +1,4 @@
-//import profile from "../assets/profile.jpg"
+import profile from "../assets/profile.jpg"
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
         </div>*/}
         <br/>
         <p>
-           One seemingly ordinary day, I decided to check out my new neighbor’s garage sale, and in a matter of minutes, I found myself in his knife-making shop engrossed in a very interesting conversation. That day lit a spark and I discovered a passion for knife-making, and have been making them now for almost a decade.
+          One seemingly ordinary day, I decided to check out my new neighbor’s garage sale, and in a matter of minutes, I found myself in his knife-making shop engrossed in a very interesting conversation. That day lit a spark and I discovered a passion for knife-making, and have been making them now for almost a decade.
         </p>
         <br/>
         <p>
@@ -18,15 +18,11 @@ const About = () => {
         </p>
         <br/>
         <p>
-          I’m a seventh-generation Texan – and more importantly, I’m a son of God through Jesus my Savior, who has bestowed in me the gifts to do the work that I do. I love making something with my hands from the gifts He gave me that will work – or play -- as hard as the people who use them.
+          I’m a seventh-generation Texan -- and more importantly, I’m a son of God through Jesus my Savior, who has bestowed in me the gifts to do the work that I do. I love making something with my hands from the gifts He gave me that will work -- or play -- as hard as the people who use them.
         </p>
         <br/>
         <p>
-          If you’ll notice, pricing uses the phrase “starting at.”
-        </p>
-        <br/>
-        <p>
-          Every piece I create is special, and almost every one is custom. With custom work, sizes vary – which affect the amount of leather needed. Some folks prefer tooling, while others select plain. Finished edges truly elevate any leather piece, and finished edges add time to any project. Sizing, material, details like edging or painting, supply chain issues and inflation fluctuations all impact price.
+          Every piece I create is special, and almost every one is custom.
         </p>
         <br/>
         <p>
@@ -34,11 +30,15 @@ const About = () => {
         </p>
         <br/>
         <p>
-          Thanks for stopping by! You can reach me via my Contact page or social media.
+          Thanks for stopping by!
         </p>
         <br/>
         <p>
-          All the best to you and yours!
+          You can reach me via my Contact page or social media. 
+        </p>
+        <br/>
+        <p>
+          All the best to you and yours.
         </p>
       </div>
     </div>

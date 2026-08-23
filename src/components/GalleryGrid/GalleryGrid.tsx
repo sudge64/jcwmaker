@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import ImageCarousel from "../ImageCarousel/ImageCarousel";
 import productData from "../../assets/products/product_list.json"
 import "./GalleryGrid.css"
