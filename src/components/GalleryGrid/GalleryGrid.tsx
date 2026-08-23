@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import ImageCarousel from "../ImageCarousel/ImageCarousel";
-import productData from "./product_list.json"
+import productData from "../../assets/products/product_list.json"
 import "./GalleryGrid.css"
 
 export interface Image {
@@ -46,10 +46,6 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => (
     <div className="card-details">
       <h3>{product.name}</h3>
     </div>
-    <p>Starting at ${product.price}</p>
-    {/*<Link to="/contact" className="contact-button">
-      Contact Me
-    </Link>*/}
   </div>
 );
 

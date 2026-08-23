@@ -1,6 +1,6 @@
 //import { Link } from "react-router-dom";
 import ImageCarousel from "../ImageCarousel/ImageCarousel";
-import productData from "./product_list.json"
+import productData from "../../assets/products/product_list.json"
 import "./ProductGrid.css"
 
 export interface Image {
