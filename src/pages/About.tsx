@@ -1,13 +1,13 @@
-import profile from "../assets/profile.jpg"
+//import profile from "../assets/profile.jpg"
 
 const About = () => {
   return (
     <div className="text-background">
       <div style={{ padding: "20px" }}>
         <h1>Meet The Maker</h1>
-        <div className="profile">
+        {/*<div className="profile">
           <img src={profile}/>
-        </div>
+        </div>*/}
         <br/>
         <p>
            One seemingly ordinary day, I decided to check out my new neighbor’s garage sale, and in a matter of minutes, I found myself in his knife-making shop engrossed in a very interesting conversation. That day lit a spark and I discovered a passion for knife-making, and have been making them now for almost a decade.
@@ -22,7 +22,7 @@ const About = () => {
         </p>
         <br/>
         <p>
-          If you’ll notice, pricing in my Gallery uses the phrase “starting at.”
+          If you’ll notice, pricing uses the phrase “starting at.”
         </p>
         <br/>
         <p>

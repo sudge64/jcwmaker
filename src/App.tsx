@@ -1,26 +1,19 @@
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
+import Gallery from "./pages/Gallery";
+import Pricing from "./pages/Pricing";
 import "./App.css";
 import background from "./assets/background.jpeg";
 
 function App() {
-  const location = useLocation();
-
-  const isNotHome = location.pathname !== "/";
-
   return (
-    <div style={{ minHeight: "100vh", position: "relative", overflow: "hidden" }}>
     <div
-      className={`app-background ${isNotHome ? "grayscale-background" : ""}`}
+      className="app-background"
       style={{
-        position: "absolute",
-        top: 0,
-        left: 0,
         backgroundImage: `url(${background})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
@@ -29,14 +22,15 @@ function App() {
         width: '100%',
         zIndex: 0
       }}
-    />
-        <div className="App" style={{ position: "relative", zIndex: 1 }}>
+    >
+        <div className="App" style={{ zIndex: 1 }}>
           <Navbar />
           <main>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/gallery" element={<Gallery />} />
+              <Route path="/pricing" element={<Pricing />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>
           </main>

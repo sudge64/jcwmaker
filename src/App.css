@@ -56,10 +56,6 @@ main {
   height: 100%;
 }
 
-.grayscale-background {
-  filter: grayscale(100%);
-}
-
 .profile img {
   display: flex;
   justify-items: center;

@@ -35,5 +35,17 @@
         "name": "Custom Graduation Cap",
         "price": 350,
         "images": ["tooled_grad_cap_front"]
+    },
+    {
+        "id": "7",
+        "name": "Antler Knife",
+        "price": 999,
+        "images": ["knife_antler"]
+    },
+    {
+        "id": "8",
+        "name": "Bowie Knife",
+        "price": 999,
+        "images": ["knife_bowie"]
     }
 ]
