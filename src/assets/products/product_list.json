@@ -2,50 +2,44 @@
     {
         "id": "1",
         "name": "Tow Belt",
-        "price": 125,
+        "price": "starting at $125",
         "images": ["belt_front"]
 
     },
     {
         "id": "2",
-        "name": "Bible Cover",
-        "price": 450,
-        "images": ["Bible_cover_front", "Bible_cover_back"]
-    },
-    {
-        "id": "3",
         "name": "Dopp Bag",
-        "price": 100,
+        "price": "starting at $100",
         "images": ["dop_bag_front"]
     },
     {
-        "id": "4",
+        "id": "3",
         "name": "Tooled Belt",
-        "price": 375,
-        "images": ["tooled_belt_front"]
+        "price": "starting at $375",
+        "images": ["tooled_belt_front", "tooled_belt_custom_front"]
+    },
+    {
+        "id": "4",
+        "name": "Bible Cover",
+        "price": "starting at $450",
+        "images": ["Bible_cover_front", "Bible_cover_back"]
     },
     {
         "id": "5",
-        "name": "Custom Tooled Belt",
-        "price": 400,
-        "images": ["tooled_belt_custom_front"]
-    },
-    {
-        "id": "6",
         "name": "Custom Graduation Cap",
-        "price": 350,
+        "price": "starting at $350",
         "images": ["tooled_grad_cap_front"]
     },
     {
-        "id": "7",
+        "id": "6",
         "name": "Antler Knife",
-        "price": 999,
+        "price": "Inquiry",
         "images": ["knife_antler"]
     },
     {
-        "id": "8",
+        "id": "7",
         "name": "Bowie Knife",
-        "price": 999,
+        "price": "Inquiry",
         "images": ["knife_bowie"]
     }
 ]

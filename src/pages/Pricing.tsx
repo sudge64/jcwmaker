@@ -13,7 +13,7 @@ const Pricing = () => {
         </p>
         <br/>
         <p>
-          As my work is <b>made-to-order</b> please submit an inquiry and let's bring your vision to life.
+          As my work is <b>made-to-order</b>, please submit an inquiry. Let's bring your vision to life!
         </p>
         <br/>
         <ProductList/>

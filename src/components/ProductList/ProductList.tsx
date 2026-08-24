@@ -5,7 +5,7 @@ import "./ProductList.css";
 const ProductItem: React.FC<{ product: Product }> = ({ product }) => (
   <div className="product-list-item">
     <div className="list-details">
-      <p><b>{product.name}</b> - starting at ${product.price}.</p>
+      <p><b>{product.name}</b> - {product.price}.</p>
       <br/>
     </div>
   </div>

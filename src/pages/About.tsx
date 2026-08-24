@@ -33,9 +33,6 @@ const About = () => {
           Now, I am closing in on a decade of experience in these trades. From using scraps, to reinvesting into better tools, to where I am today, I thank God for the opportunities and experiences I’ve had over the years through this business. I appreciate the opportunity for your business. From JCW Maker, thank you and God bless!
         </p>
         <br/>
-        <p>
-          Jadon Wade
-        </p>
       </div>
     </div>
   );
