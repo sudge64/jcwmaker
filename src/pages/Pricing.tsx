@@ -6,7 +6,7 @@ const Pricing = () => {
       <div style={{ padding: "20px" }}>
         <h1>Pricing</h1>
         <br/>
-        <h2 style={{ color: "red" }}>No Current Inventory</h2>
+        <h2 style={{ color: "white" }}>*No Current Inventory</h2>
         <br/>
         <p>
           Please note, these prices are <b>starting at</b> and are <b>subject to change</b>. Sizing, material, details like rolled edges, painting, supply chain issues, inflation fluctuations, etc, all impact price.

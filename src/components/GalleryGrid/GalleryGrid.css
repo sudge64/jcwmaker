@@ -1,8 +1,6 @@
-/* Container for the entire product grid */
 .product-grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 1.5rem;
   padding: 1rem;
   max-width: 70rem;
   margin: 0 auto;
@@ -18,52 +16,4 @@
   .product-grid {
     grid-template-columns: repeat(3, 1fr);
   }
-}
-
-/* Individual Product Card */
-.card-details {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.product-card {
-  border: 0.1rem solid #e5e7eb;
-  border-radius: 0.5rem;
-  padding: 1rem;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
-.product-card h3 {
-  font-size: 1.125rem;
-  font-weight: 700;
-  margin: 0;
-  color: #111827;
-}
-
-.product-card p {
-  color: #4b5563;
-  margin: 0;
-  font-size: 0.95rem;
-}
-
-/* Hover effect for cards */
-.product-card a {
-  width: 100%;
-  transition: .5s;
-  border: none;
-  color: white;
-  background-color: black;
-  text-align: center;
-  border-radius: 0.5rem;
-  padding: 0.5rem;
-}
-
-.product-card a:hover {
-  background-color: white;
-  color: black;
-  border: 0.1rem solid black;
 }

@@ -5,10 +5,7 @@ import "./GalleryGrid.css";
 
 const ProductCard: React.FC<{ product: Product }> = ({ product }) => (
   <div className="product-card">
-    <ImageCarousel images={product.images} />
-    <div className="card-details">
-      <h3>{product.name}</h3>
-    </div>
+    <ImageCarousel images={product.images} title={product.name} />
   </div>
 );
 

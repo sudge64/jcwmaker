@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./ImageCarousel.css"
 import { Image } from "../ProductLoader/ProductLoader";
 
-const ImageCarousel: React.FC<{ images: Image[] }> = ({ images }) => {
+const ImageCarousel: React.FC<{ images: Image[]; title?: string }> = ({ images, title }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   // State for Full Screen Modal
   const [isFullScreen, setIsFullScreen] = useState(false);
@@ -30,6 +30,12 @@ const ImageCarousel: React.FC<{ images: Image[] }> = ({ images }) => {
           onClick={openFullScreen}
         />
       </div>
+
+      {
+        title && (
+          <h3 className="carousel-title">{title}</h3>
+        )
+      }
 
       {/* Carousel Controls (Hidden if only 1 image) */}
       {images.length > 1 && (
