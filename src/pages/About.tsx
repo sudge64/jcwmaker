@@ -10,35 +10,31 @@ const About = () => {
         </div>*/}
         <br/>
         <p>
-          One seemingly ordinary day, I decided to check out my new neighbor’s garage sale, and in a matter of minutes, I found myself in his knife-making shop engrossed in a very interesting conversation. That day lit a spark and I discovered a passion for knife-making, and have been making them now for almost a decade.
+          For as long as I can remember, I have always enjoyed “making,” the creative process and its results. I’ve long been passionate about turning raw materials into durable, purposeful pieces that stand the test of time. More importantly, I want to honor and glorify Heavenly Father with the gifts He’s given me and serve Christ through my work. 
         </p>
         <br/>
         <p>
-          It didn’t take long, like many other knife-makers, to realize my knives needed sheaths. Leather runs in my blood, so to speak. My great-grandmother worked, sewing leather stirrups, in a saddle shop, and my dad worked in leather work in his early teens. With scrap leather and my dad’s old tools, long story short, JCW Maker Custom Goods was born.
+          Nearing a decade ago, I made friends with our neighbor, an incredibly talented knife maker. At that moment, I discovered my interest in making cutlery. Working with him through the years was monumental in my knife making journey. 
         </p>
         <br/>
         <p>
-          I’m a seventh-generation Texan -- and more importantly, I’m a son of God through Jesus my Savior, who has bestowed in me the gifts to do the work that I do. I love making something with my hands from the gifts He gave me that will work -- or play -- as hard as the people who use them.
+          It didn’t take long to realize -- my knives needed leather sheaths. I’d always been fascinated with the collection of leather working tools housed in a black briefcase in my dad’s office. One day, I took those tools and some leather scraps and made my first leather projects, with, might I add, much room for improvement.
         </p>
         <br/>
         <p>
-          Every piece I create is special, and almost every one is custom.
+          I invested countless hours, honing my skills as a self-taught leather worker.
         </p>
         <br/>
         <p>
-          I primarily take custom orders and I’d love to make one for you. I use the top-quality leather and materials that I can get my hands on. My Gallery shows a portfolio of some products I’ve made.
+          Being a 7th generation Texan, I am not the first in my family to work with leather. Officially starting with my great-grandmother Lela, who worked in a saddle shop in west Texas, hand stitching stirrups, to my dad, who worked leather in his early teen years, leather work is a tradition I’m honored to continue.
         </p>
         <br/>
         <p>
-          Thanks for stopping by!
+          Now, I am closing in on a decade of experience in these trades. From using scraps, to reinvesting into better tools, to where I am today, I thank God for the opportunities and experiences I’ve had over the years through this business. I appreciate the opportunity for your business. From JCW Maker, thank you and God bless!
         </p>
         <br/>
         <p>
-          You can reach me via my Contact page or social media. 
-        </p>
-        <br/>
-        <p>
-          All the best to you and yours.
+          Jadon Wade
         </p>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./ImageCarousel.css"
-import { Image } from "../GalleryGrid/GalleryGrid";
+import { Image } from "../ProductLoader/ProductLoader";
 
 const ImageCarousel: React.FC<{ images: Image[] }> = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
