@@ -37,13 +37,12 @@ const About = () => {
         <br/>
       <div className="illume">
         <h3>
-          Featured in <a href="https://illumeconnect.com/pages/illume-magazine">Illume</a>!
+          Featured in <a href="https://illumeconnect.com/pages/illume-magazine">Illume</a>
         </h3>
         <p>
-          Pages 48-49 of the September 2026 edition!
+          September 2026
         </p>
         <br/>
-        <img src={illume}/>
         <img src={illume_1}/>
         <img src={illume_2}/>
       </div>
