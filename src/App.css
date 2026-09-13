@@ -61,3 +61,12 @@ main {
   justify-items: center;
   max-width: 35%;
 }
+
+.illume a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.illume img {
+  width: 13%;
+}

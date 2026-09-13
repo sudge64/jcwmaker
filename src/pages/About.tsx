@@ -1,4 +1,6 @@
-//import profile from "../assets/profile.jpg"
+import illume from "../assets/illume_0926.png"
+import illume_1 from "../assets/illume_0926_48_35.webp"
+import illume_2 from "../assets/illume_0926_49_35.webp"
 
 const About = () => {
   return (
@@ -33,6 +35,18 @@ const About = () => {
           Now, I am closing in on a decade of experience in these trades. From using scraps, to reinvesting into better tools, to where I am today, I thank God for the opportunities and experiences I’ve had over the years through this business. I appreciate the opportunity for your business. From JCW Maker, thank you and God bless!
         </p>
         <br/>
+      <div className="illume">
+        <h3>
+          Featured in <a href="https://illumeconnect.com/pages/illume-magazine">Illume</a>!
+        </h3>
+        <p>
+          Pages 48-49 of the September 2026 edition!
+        </p>
+        <br/>
+        <img src={illume}/>
+        <img src={illume_1}/>
+        <img src={illume_2}/>
+      </div>
       </div>
     </div>
   );
