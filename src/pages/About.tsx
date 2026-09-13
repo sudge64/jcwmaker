@@ -1,4 +1,3 @@
-import illume from "../assets/illume_0926.png"
 import illume_1 from "../assets/illume_0926_48_35.webp"
 import illume_2 from "../assets/illume_0926_49_35.webp"
 
